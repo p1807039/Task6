@@ -10,12 +10,12 @@ namespace Task6.Controllers
 {
     public class CartController : Controller
     {
-        string key = "sk_test_51GxdLDHq05oyY0YBoHTN18NJHgarUMDCNAHpcBgYhBLseyoKXCOwtB9DtBxRlWJhnCaw1DBZ6QVvCme5g07hcVfP00VqfSJeKC"; // input Stripe API Key here
-        string customerId = "cus_HX2NtHMAAqT48v"; // input customer id here
-        string productPrice1 = "price_1GxxF2Hq05oyY0YBV34fXVpe"; // input product1 price here
-        string productPrice2 = "price_1GxxJMHq05oyY0YB9PZcaYC1"; // input product2 price here
-        string subscriptionId = "sub_HXG9cttZSnVlkS"; // input subscription id here
-        string paymentIntent = "pi_1GyBcqHq05oyY0YBe2txBPEU"; // input payment intent here
+        string key = "stripe api key id"; // input Stripe API Key here
+        string customerId = "customer id key id"; // input customer id here
+        string productPrice1 = "product1 price id"; // input product1 price here
+        string productPrice2 = "product2 price id"; // input product2 price here
+        string subscriptionId = "subscription id"; // input subscription id here
+        string paymentIntent = "payment intent key"; // input payment intent here
 
         // GET: Cart/Create
         public ActionResult Create()
